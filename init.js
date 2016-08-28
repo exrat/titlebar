@@ -1,3 +1,8 @@
+// Configuration
+var personalTitle  = "Bonobox - ruTorrent v";
+var versionRutorrent = "yes"; // yes or no
+//
+
 plugin.updateStatus = theWebUI.updateStatus;
 theWebUI.updateStatus = function()
 {
@@ -12,7 +17,11 @@ theWebUI.updateStatus = function()
                         if(dl.length)
                                 newTitle+=('↓'+dl+' ');
                 }
-                newTitle+="Bonobox - ruTorrent v"+self.version;
+
+                if (versionRutorrent == "yes"){ newTitle+=(personalTitle)+self.version;
+                } else { newTitle+=(personalTitle);
+                }
+
                 if(document.title!=newTitle)
                         document.title = newTitle;
                 $("#stup_speed").text(ul);

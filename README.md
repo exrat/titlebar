@@ -1,9 +1,20 @@
 # titlebar
 Adds personal text to the title of ruTorrent
 
-Just edit init.js
+Edit  .../rutorrent/plugins/titlebar/init.js
 ```
-newTitle+="Bonobox - ruTorrent v"+self.version;
+// Configuration
+var personalTitle  = "Bonobox - ruTorrent v";
+var versionRutorrent = "yes"; // yes or no
+//
 ```
+Exemple:
+```
+// Configuration
+var personalTitle  = "MyBox";
+var versionRutorrent = "no"; // yes or no
+//
+```
+
 inspired by SanKen - rutorrent-titlebar plugin
 https://github.com/SanKen/rutorrent-titlebar
