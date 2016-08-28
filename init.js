@@ -1,5 +1,5 @@
 // Configuration
-var personalTitle  = "Bonobox - ruTorrent v";
+var personalTitle  = "ruTorrent v";
 var versionRutorrent = "yes"; // yes or no
 //
 

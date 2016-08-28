@@ -4,7 +4,7 @@ Adds personal text to the title of ruTorrent
 Edit  .../rutorrent/plugins/titlebar/init.js
 ```
 // Configuration
-var personalTitle  = "Bonobox - ruTorrent v";
+var personalTitle  = "ruTorrent v";
 var versionRutorrent = "yes"; // yes or no
 //
 ```
